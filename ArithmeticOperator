@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class ArithmeticOperator{
+    public static void main(String[] args){
+        //creating scanner class to take input from the User 
+        Scanner sc=new Scanner(System.in);
+        //getting input from the user
+        System.out.println("Enter the first value: ");
+        int num1=sc.nextInt();
+         System.out.println("Enter the second value: ");
+        int num2=sc.nextInt();
+         System.out.println("Enter the third value: ");
+        int num3=sc.nextInt();
+        //performing addition,subtraction,multiplication,division,modulo
+        int add,sub,mul,div,mod;
+        add=num1+num2+num3;
+        sub=num1-num2-num3;
+        mul=num1*num2*num3;
+        div=num1/num2/num3;
+        mod=num1%num2%num3;
+        System.out.println("Addition of three number is :"+ add);
+        System.out.println("Substraction of three number is :"+ sub);
+        System.out.println("multiplication of three number is :"+ mul);
+        System.out.println("Division of three number is :"+ div);
+        System.out.println("moduludo of three number is :"+ mod);
+        
+    }
+
+}
