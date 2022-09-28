@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class Unary {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number");
+		int num1=sc.nextInt();
+		//performing unary operation
+		   num1=-num1;
+	     System.out.println("Result is "+ num1);
+	  //performing Shift operator
+	      num1=++num1;
+	      System.out.println("Result is "+ num1);
+	      num1=--num1;
+	      System.out.println("Result is "+ num1);
+	      num1=num1++;
+	      System.out.println("Result is "+ num1);
+	      num1=num1--;
+	      System.out.println("Result is "+ num1);
+	    		
+
+
+	}
+
+}
